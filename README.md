@@ -72,7 +72,7 @@ Nine classes, one per file, single (default) package:
 | `Main.java` | Entry point, menu loop, input validation. |
 
 Full design discussion, UML class diagram, testing tables, and references are in
-the [academic report](docs/EE1004_Group14_Project14_Report.pdf).
+the [academic report](Documents/EE1004_Group14_Project14_Report.pdf).
 
 ---
 
