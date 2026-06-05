@@ -31,7 +31,7 @@ The codebase is the academic deliverable for Group 14 of the EE1004 course (Proj
 Requires **JDK 11** or later. No external dependencies — Java Standard Edition only.
 
 ```bash
-git clone https://github.com/<your-org>/EE1004-Group14-CargoShipmentTracker.git
+git clone https://github.com/atabeyaydi/CargoShipmentTracker.git
 cd EE1004-Group14-CargoShipmentTracker
 javac *.java
 java Main
