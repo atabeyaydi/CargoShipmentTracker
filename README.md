@@ -1,6 +1,6 @@
 # Cargo Shipment Tracker
 
-> EE1004 — Object-Oriented Programming · Group Project 14
+> Object-Oriented Programming · Group Project 14
 > Marmara University, Faculty of Engineering, Department of Electrical and Electronics Engineering · Spring 2025–2026
 
 A console-based Java application that models a small Istanbul cargo company's daily operations. The system registers shipments of three priority classes (Standard, Express, Same-Day), advances each shipment through a strict lifecycle enforced by an enum-based state machine, refuses every illegal transition by throwing a typed custom exception, looks up shipments in **O(1)** by tracking ID via a `HashMap`, and exposes **three** interchangeable `Comparator` strategies for sorting daily planning reports.
