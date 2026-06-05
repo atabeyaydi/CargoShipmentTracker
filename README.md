@@ -71,7 +71,8 @@ Nine classes, one per file, single (default) package:
 | `CargoCompany.java` | Aggregator: `ArrayList<Shipment>` + `HashMap<Integer, Shipment>` + three `Comparator`s. |
 | `Main.java` | Entry point, menu loop, input validation. |
 
-A full UML class diagram is included in the project report.
+Full design discussion, UML class diagram, testing tables, and references are in
+the [academic report](docs/EE1004_Group14_Project14_Report.pdf).
 
 ---
 
