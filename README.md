@@ -32,7 +32,7 @@ Requires **JDK 11** or later. No external dependencies — Java Standard Edition
 
 ```bash
 git clone https://github.com/atabeyaydi/CargoShipmentTracker.git
-cd EE1004-Group14-CargoShipmentTracker
+cd CargoShipmentTracker
 javac *.java
 java Main
 ```
