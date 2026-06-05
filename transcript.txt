@@ -1,0 +1,188 @@
+Enter company name: Hızlı Kargo
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 1
+Sender: Mehmet
+Recipient: Ayşe
+Distance (km): 250
+Weight (kg): 12
+Shipment registered. ID: 1
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 2
+Sender: Burak
+Recipient: Cem
+Distance (km): 50
+Weight (kg): 5
+Shipment registered. ID: 2
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 3
+Sender: Deniz
+Recipient: Ece
+Distance (km): 15
+Weight (kg): 3
+Shipment registered. ID: 3
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 4
+Enter shipment ID: 1
+Enter new status (IN_TRANSIT/DELIVERED/RETURNED): IN_TRANSIT
+Status updated. ID 1: PENDING -> IN_TRANSIT
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 4
+Enter shipment ID: 2
+Enter new status (IN_TRANSIT/DELIVERED/RETURNED): DELIVERED
+Invalid status transition: PENDING -> DELIVERED
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 4
+Enter shipment ID: 1
+Enter new status (IN_TRANSIT/DELIVERED/RETURNED): DELIVERED
+Status updated. ID 1: IN_TRANSIT -> DELIVERED
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 5
+ID: 1 | [Standard] Mehmet -> Ayşe (250.0 km, 12.0 kg) | Cost: 375.00 TL | Status: DELIVERED
+ID: 2 | [Express] Burak -> Cem (50.0 km, 5.0 kg) | Cost: 150.00 TL | Status: PENDING
+ID: 3 | [SameDay] Deniz -> Ece (15.0 km, 3.0 kg) | Cost: 90.00 TL | Status: PENDING
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 6
+Enter shipment ID: 2
+ID: 2 | [Express] Burak -> Cem (50.0 km, 5.0 kg) | Cost: 150.00 TL | Status: PENDING
+Insurance: 12.00 TL
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 6
+Enter shipment ID: 9999
+No shipment found with that ID.
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 7
+Sort by (cost/distance/status): cost
+===== Sorted by Cost (high -> low) =====
+ID: 1 | [Standard] Mehmet -> Ayşe (250.0 km, 12.0 kg) | Cost: 375.00 TL | Status: DELIVERED
+ID: 2 | [Express] Burak -> Cem (50.0 km, 5.0 kg) | Cost: 150.00 TL | Status: PENDING
+ID: 3 | [SameDay] Deniz -> Ece (15.0 km, 3.0 kg) | Cost: 90.00 TL | Status: PENDING
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 8
+===== Revenue & Insurance Summary =====
+Total Shipments: 3
+Total Revenue: 615.00 TL
+Total Insurance: 41.55 TL
+(Standard: 18.75 + Express: 12.00 + SameDay: 10.80)
+
+--- Cargo Menu ---
+1. Register a standard shipment
+2. Register an express shipment
+3. Register a same-day shipment
+4. Advance shipment status
+5. List all shipments
+6. Find shipment by ID
+7. Sort shipments
+8. Show revenue & insurance summary
+9. Exit
+Choose an option (1-9): 9
+Exiting. Goodbye!
