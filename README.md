@@ -218,7 +218,7 @@ Group 14, Marmara University (Spring 2025–2026):
 | Atabey Aydı | 150718503 | `ShipmentStatus` enum + `canGoTo` state machine, `InvalidStatusTransitionException` |
 | Mehmet Açar | 150719020 | `Shipment` abstract base, static ID counter, `advanceStatus`, `toString` |
 | İsmail Hanifi Nal | 150719025 | `StandardShipment`, `ExpressShipment`, `SameDayShipment`, `Insurable` interface |
-| Abdulkadir Köroğlu | 150719695 | `CargoCompany`: `registerShipment`, `listAllShipments`, `findById`, totals |
+| Abdulkadir Köroğlu | 150719695 | `CargoCompany`: `registerShipment`, `listAllShipments`, `findById` Format , totals |
 | Burak Gökmen | 150720010 | `CargoCompany`: `listSortedBy` (three Comparator strategies), `summary` |
 | Alperen Tufan Pelit | 150720012 | `Main` menu loop, input validation, test transcript, report compilation |
 
