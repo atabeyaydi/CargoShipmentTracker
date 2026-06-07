@@ -1,5 +1,6 @@
 /**
  * Same-day shipment: 6.0 TL/km, max 10 kg, insurance = 12 % of cost.
+ * This class implements the specific pricing and capacity rules for same-day deliveries.
  */
 public class SameDayShipment extends Shipment {
     private static final double RATE_PER_KM   = 6.0;
