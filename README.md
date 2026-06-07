@@ -78,7 +78,7 @@ the [academic report](Documents/EE1004_Group14_Project14_Report.pdf).
 
 ## Pricing and insurance model
 
-| Type | Class | Rate (TL/km) | Max weight | Insurance |
+|  Type  |  Class  |  Rate (TL/km)  |  Max weight  |  Insurance  |
 |---|---|---:|---:|---:|
 | Standard | `StandardShipment` | 1.5 | 30 kg | 5 % of cost |
 | Express  | `ExpressShipment`  | 3.0 | 20 kg | 8 % of cost |
