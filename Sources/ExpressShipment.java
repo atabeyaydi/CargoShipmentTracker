@@ -15,7 +15,8 @@ public class ExpressShipment extends Shipment {
     public ExpressShipment(String sender, String recipient, double distanceKm, double weightKg) {
         super(sender, recipient, distanceKm, weightKg);
     }
-
+    
+    // Overridden methods to provide class-specific values and calculate insurance based on the interface
     @Override public double getRatePerKm()     { return RATE_PER_KM; }
     @Override public double getMaxWeightKg()   { return MAX_WEIGHT_KG; }
     @Override public String typeLabel()        { return "Express"; }
