@@ -1,5 +1,6 @@
 /**
  * Express shipment: 3.0 TL/km, max 20 kg, insurance = 8 % of cost.
+ * This class implements the specific pricing and capacity rules for express deliveries.
  */
 public class ExpressShipment extends Shipment {
     private static final double RATE_PER_KM   = 3.0;
