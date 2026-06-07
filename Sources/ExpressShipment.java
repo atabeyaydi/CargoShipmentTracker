@@ -3,6 +3,8 @@
  * This class implements the specific pricing and capacity rules for express deliveries.
  */
 public class ExpressShipment extends Shipment {
+
+    // Constants defining the specific rules and limits for an express shipment
     private static final double RATE_PER_KM   = 3.0;
     private static final double MAX_WEIGHT_KG = 20.0;
     private static final double INSURANCE_PCT = 0.08;
