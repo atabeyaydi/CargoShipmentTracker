@@ -11,10 +11,14 @@ public class StandardShipment extends Shipment {
     private static final double MAX_WEIGHT_KG = 30.0;
     private static final double INSURANCE_PCT = 0.05;
 
+    /**
+     * Initializes a standard shipment by passing the details to the abstract base class.
+     */
     public StandardShipment(String sender, String recipient, double distanceKm, double weightKg) {
         super(sender, recipient, distanceKm, weightKg);
     }
-
+    
+    // Overridden methods to provide class-specific values and calculate insurance based on the interface
     @Override public double getRatePerKm()     { return RATE_PER_KM; }
     @Override public double getMaxWeightKg()   { return MAX_WEIGHT_KG; }
     @Override public String typeLabel()        { return "Standard"; }
