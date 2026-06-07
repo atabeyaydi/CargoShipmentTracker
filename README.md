@@ -220,7 +220,7 @@ Group 14, Marmara University (Spring 2025–2026):
 | İsmail Hanifi Nal | 150719025 | `StandardShipment`, `ExpressShipment`, `SameDayShipment`, `Insurable` interface |
 | Abdulkadir Köroğlu | 150719695 | `CargoCompany`: `registerShipment`, `listAllShipments`, `findById` Format , totals |
 | Burak Gökmen | 150720010 | `CargoCompany`: `listSortedBy` (three Comparator strategies), `summary` |
-| Alperen Tufan Pelit | 150720012 | `Main` menu loop, input validation, test transcript, report compilation |
+| Alperen Tufan Pelit | 150720012 | `Main` menu loop, input validation, test transcript, report  compilation |
 
 Each member committed from their own GitHub account; see the repository commit history for the full attribution.
 
