@@ -3,10 +3,14 @@
  * This class implements the specific pricing and capacity rules for same-day deliveries.
  */
 public class SameDayShipment extends Shipment {
+    // Constants defining the specific rules and limits for a same-day shipment
     private static final double RATE_PER_KM   = 6.0;
     private static final double MAX_WEIGHT_KG = 10.0;
     private static final double INSURANCE_PCT = 0.12;
 
+    /**
+     * Initializes a same-day shipment by passing the details to the abstract base class.
+     */
     public SameDayShipment(String sender, String recipient, double distanceKm, double weightKg) {
         super(sender, recipient, distanceKm, weightKg);
     }
