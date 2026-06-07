@@ -9,6 +9,9 @@ public class ExpressShipment extends Shipment {
     private static final double MAX_WEIGHT_KG = 20.0;
     private static final double INSURANCE_PCT = 0.08;
 
+    /**
+     * Initializes an express shipment by passing the details to the abstract base class.
+     */
     public ExpressShipment(String sender, String recipient, double distanceKm, double weightKg) {
         super(sender, recipient, distanceKm, weightKg);
     }
