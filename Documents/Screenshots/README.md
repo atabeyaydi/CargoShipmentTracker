@@ -2,14 +2,25 @@
 
 This project is a Java-based Cargo Shipment Tracking system designed to model operations for a cargo company using OOP principles, custom exceptions, and collection-based management.
 
-## Example Execution Log
+# Execution Log
 
-The following table demonstrates the interaction flow of the application.
+The following table demonstrates the application's I/O flow based on the project requirements.
 
-| Input Sequence | System Output |
-| :--- | :--- |
-
-| `Hızlı Kargo`<br>`1` (Register Standard)<br>`Mehmet`<br>`Ayşe`<br>`250`<br>`12`<br>`2` (Register Express)<br>`Burak`<br>`Cem`<br>`50`<br>`5`<br>`3` (Register Same-Day)<br>`Deniz`<br>`Ece`<br>`15`<br>`3`<br>`4`<br>`1` (Update ID 1)<br>`IN_TRANSIT`<br>`4`<br>`2` (Update ID 2)<br>`DELIVERED`<br>`4`<br>`1` (Update ID 1)<br>`DELIVERED`<br>`5` (List)<br>`6` (Find ID 2)<br>`6` (Find ID 9999)<br>`7` (Sort Cost)<br>`cost`<br>`8` (Summary)<br>`9` (Exit) | **Enter company name:** Hızlı Kargo<br>--- Cargo Menu ---<br>...<br>Choose an option (1-9): 1<br>Sender: Mehmet<br>Recipient: Ayşe<br>Distance (km): 250<br>Weight (kg): 12<br>Shipment registered. ID: 1<br><br>...<br>Choose an option (1-9): 4<br>Enter shipment ID: 2<br>Enter new status: DELIVERED<br>**Invalid status transition: PENDING -> DELIVERED**<br><br>...<br>Choose an option (1-9): 7<br>Sort by (cost/distance/status): cost<br>===== Sorted by Cost (high -> low) =====<br>ID: 1 \| [Standard] Mehmet -> Ayşe \| Cost: 375.00 TL<br>ID: 2 \| [Express] Burak -> Cem \| Cost: 150.00 TL<br>ID: 3 \| [SameDay] Deniz -> Ece \| Cost: 90.00 TL<br><br>...<br>Choose an option (1-9): 9<br>**Exiting. Goodbye!** |
+| Action | User Input | System Output / Result |
+| :--- | :--- | :--- |
+| **Initialize** | `Hızlı Kargo` | Displays Main Menu |
+| **Reg. Standard** | `1`, `Mehmet`, `Ayşe`, `250`, `12` | Shipment registered. ID: 1 |
+| **Reg. Express** | `2`, `Burak`, `Cem`, `50`, `5` | Shipment registered. ID: 2 |
+| **Reg. SameDay** | `3`, `Deniz`, `Ece`, `15`, `3` | Shipment registered. ID: 3 |
+| **Update Status** | `4`, `1`, `IN_TRANSIT` | Status updated: PENDING -> IN_TRANSIT |
+| **Update Status** | `4`, `2`, `DELIVERED` | Invalid status transition: PENDING -> DELIVERED |
+| **Update Status** | `4`, `1`, `DELIVERED` | Status updated: IN_TRANSIT -> DELIVERED |
+| **List All** | `5` | Lists all shipments (ID 1, 2, 3) |
+| **Find ID 2** | `6`, `2` | Displays details for ID 2 |
+| **Find ID 9999** | `6`, `9999` | No shipment found with that ID. |
+| **Sort by Cost** | `7`, `cost` | Displays list sorted high -> low |
+| **Revenue Summary**| `8` | Shows Revenue & Insurance stats |
+| **Exit** | `9` | Exiting. Goodbye! |
 
 ---
 
