@@ -32,7 +32,6 @@ The following table demonstrates the application's I/O flow based on the project
 | `4` <br> `1` <br> `IN_TRANSIT` | --- Cargo Menu --- <br> ... <br> Choose an option (1-9): 4 <br> Enter shipment ID: 1 <br> Enter new status (IN_TRANSIT/DELIVERED/RETURNED): IN_TRANSIT <br> Status updated. ID 1: PENDING -> IN_TRANSIT |
 | `4` <br> `2` <br> `DELIVERED` | --- Cargo Menu --- <br> ... <br> Choose an option (1-9): 4 <br> Enter shipment ID: 2 <br> Enter new status (IN_TRANSIT/DELIVERED/RETURNED): DELIVERED <br> Invalid status transition: PENDING -> DELIVERED |
 | `4` <br> `1` <br> `DELIVERED` | --- Cargo Menu --- <br> ... <br> Choose an option (1-9): 4 <br> Enter shipment ID: 1 <br> Enter new status (IN_TRANSIT/DELIVERED/RETURNED): DELIVERED <br> Status updated. ID 1: IN_TRANSIT -> DELIVERED |
-
 | `5` | --- Cargo Menu --- <br> ... <br> Choose an option (1-9): 5 <br> ID: 1 \| [Standard] Mehmet -> Ayşe (250.0 km, 12.0 kg) \| Cost: 375.00 TL \| Status: DELIVERED <br> ID: 2 \| [Express] Burak -> Cem (50.0 km, 5.0 kg) \| Cost: 150.00 TL \| Status: PENDING <br> ID: 3 \| [SameDay] Deniz -> Ece (15.0 km, 3.0 kg) \| Cost: 90.00 TL \| Status: PENDING |
 | `6` <br> `2` | --- Cargo Menu --- <br> ... <br> Choose an option (1-9): 6 <br> Enter shipment ID: 2 <br> ID: 2 \| [Express] Burak -> Cem (50.0 km, 5.0 kg) \| Cost: 150.00 TL \| Status: PENDING \| Insurance: 12.00 TL |
 | `6` <br> `9999` | --- Cargo Menu --- <br> ... <br> Choose an option (1-9): 6 <br> Enter shipment ID: 9999 <br> No shipment found with that ID. |
