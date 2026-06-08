@@ -139,6 +139,11 @@ Unknown options print `Unknown option. Skipping...` and the menu loops. The sort
 
 ---
 
+### About Cargo Shipment Tracker - Console Screenshots
+![JavaConsoleApp1](Documents/Screenshots/JavaConsoleApp1.png)
+
+---
+
 ## Sample run
 
 ```
